@@ -47,7 +47,7 @@ function plot(id){
   //bar chart
   var barData = [{
       x: topSampleValues.reverse(),
-      y: otuIdsString.reverse(),
+      y: topOtuIds.reverse(),
       text:topOtuLabels.reverse(),
       name: "Top 10 Bacteria Cultures Found",
       type: "bar",
